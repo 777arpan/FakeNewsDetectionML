@@ -189,6 +189,9 @@ def health():
     return jsonify({"status": "ok", "model": "TF-IDF + Logistic Regression", "version": "1.0"})
 
 @app.route('/api/samples', methods=['GET'])
+
+
+#Sample Articles for testing
 def get_samples():
     return jsonify({
         "fake1": {
