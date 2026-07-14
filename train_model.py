@@ -9,6 +9,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import train_test_split
+import collections
 
 
 
